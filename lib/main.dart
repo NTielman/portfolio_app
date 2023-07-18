@@ -20,8 +20,8 @@ class MiCard extends StatelessWidget {
           ),
         ),
         home: MediaQuery.of(context).orientation == Orientation.portrait
-            ? const PotraitPage()
-            : const LandscapePage());
+            ? const PotraitView()
+            : const LandscapeView());
   }
 }
 
@@ -78,8 +78,8 @@ class MiAvatar extends StatelessWidget {
   }
 }
 
-class PotraitPage extends StatelessWidget {
-  const PotraitPage({super.key});
+class PotraitView extends StatelessWidget {
+  const PotraitView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -155,14 +155,14 @@ class PotraitPage extends StatelessWidget {
   }
 }
 
-class LandscapePage extends StatefulWidget {
-  const LandscapePage({super.key});
+class LandscapeView extends StatefulWidget {
+  const LandscapeView({super.key});
 
   @override
-  State<LandscapePage> createState() => _LandscapePageState();
+  State<LandscapeView> createState() => _LandscapeViewState();
 }
 
-class _LandscapePageState extends State<LandscapePage> {
+class _LandscapeViewState extends State<LandscapeView> {
   double topPos = 0.5;
   double leftPos = 10.0;
   final double _eyesWidth = 102.5;
