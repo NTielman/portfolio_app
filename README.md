@@ -1,16 +1,23 @@
 # mi_card
+---
 
-A new Flutter project.
+## Description
+A mobile version of a simple business card. Experimenting with Flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Languages, Libraries & Frameworks
+* Dart
+* Flutter
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
+Clone the repository to a local directory
+cd into the directory and run `dart main.dart`or cluck on the debugger play icon to run in debug mode
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+![ezgif com-video-to-gif](https://github.com/NTielman/portfolio_app/assets/70571238/f1119d01-3517-4d37-9e5a-ce59ec5c5701)
+
+
+## Credits
+This web app was built as part of https://and-digital.udemy.com/course/flutter-bootcamp-with-dart/learn/ 's course assignment 
