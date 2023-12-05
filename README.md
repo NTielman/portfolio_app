@@ -1,4 +1,4 @@
-# mi_card
+# Mi card
 ---
 
 ## Description
@@ -12,7 +12,7 @@ A mobile version of a simple business card. Experimenting with Flutter
 
 ## Setup
 Clone the repository to a local directory
-cd into the directory and run `dart main.dart`or cluck on the debugger play icon to run in debug mode
+cd into the directory and run `dart main.dart`or click on the debugger play icon to run in debug mode
 
 
 ## Screenshots
